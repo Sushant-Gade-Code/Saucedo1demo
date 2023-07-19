@@ -1,3 +1,3 @@
- pytest -rA --browser chrome -p no:warnings
+ pytest -rA --html=.\\Reports\\report.html -n=4 -p no:warnings
  
  pause
